@@ -1,5 +1,5 @@
 from mcp.server.fastmcp import FastMCP
-from accounts import Account
+from trading_floor.accounts import Account
 
 mcp = FastMCP("accounts_server")
 

@@ -1,5 +1,5 @@
 from agents import TracingProcessor, Trace, Span
-from database import write_log
+from trading_floor.database import write_log
 import secrets
 import string
 
