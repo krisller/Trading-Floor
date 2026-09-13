@@ -40,6 +40,9 @@ dependencies = [
     "wikipedia>=1.4.0",
 ]
 
+[project.scripts]
+trading-floor = "trading_floor.trading_floor:main"
+
 [dependency-groups]
 dev = [
     "ipykernel>=6.29.5",

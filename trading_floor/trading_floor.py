@@ -49,6 +49,10 @@ async def run_every_n_minutes():
         await asyncio.sleep(RUN_EVERY_N_MINUTES * 60)
 
 
-if __name__ == "__main__":
+def main() -> None:
     print(f"Starting scheduler to run every {RUN_EVERY_N_MINUTES} minutes")
     asyncio.run(run_every_n_minutes())
+
+
+if __name__ == "__main__":
+    main()
